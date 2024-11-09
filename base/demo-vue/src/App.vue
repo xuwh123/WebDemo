@@ -9,7 +9,7 @@
 
 <script>
 // import HelloWorld from "./components/HelloWorld.vue";
-import DemoTest from "./components/HelloWorld.vue";
+import DemoTest from "./components/DemoTest.vue";
 
 export default {
   name: "App",
