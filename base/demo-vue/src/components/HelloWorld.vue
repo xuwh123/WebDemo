@@ -31,7 +31,7 @@ let opts = {
 
   methods: {
     loadData() {
-      this.$http.get("/api/list").then((res) => {
+      this.$http.get("/pet/findByStatus?status=1").then((res) => {
         this.list = res.data;
       });
     },

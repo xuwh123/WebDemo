@@ -3,11 +3,12 @@ module.exports = defineConfig({
   transpileDependencies: true,
   devServer:{
     proxy:{
-      '/api':{
-        target:'http://localhost:5080',
+      '/pet':{
+        target:'https://apifoxmock.com/m1/467205-1183271-default/',
         pathRewrite:{'^/api':''},
         changeOrigin:true
       }
     }
   }
 })
+
