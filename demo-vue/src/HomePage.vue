@@ -8,7 +8,7 @@
 
 <script>
 // import HelloWorld from "./components/HelloWorld.vue";
-import DemoTest from "./components/DemoTest.vue";
+import DemoTest from "./components/DemoTestNew.vue";
 
 export default {
   name: "App",
